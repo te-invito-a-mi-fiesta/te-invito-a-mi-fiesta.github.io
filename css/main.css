@@ -356,7 +356,7 @@ body {
 span .titulo1{
   margin-top: 10px;
 }
-.titulo2 {
+.titulo2{
 
   font-family: 'Playball', cursive;
   text-shadow: 4px 2px 0px white;
@@ -391,7 +391,7 @@ a {
   flex-direction: column;
   margin-left: 13px;
   position: absolute;
-  bottom: 9%; 
+  bottom: 11%; 
 }
 
 .solapa{
@@ -431,14 +431,14 @@ iframe{
 
 }
 /*cuenta regresiva*/
-#cuenta{
+.cuenta{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-bottom: -1216px;  
+  /* margin-bottom: -800px;   */
 
 }
 
@@ -545,7 +545,7 @@ background-size: cover;
   flex-wrap: nowrap;
   flex-direction: column;
 
-  margin-top: -1163px; 
+  /* margin-top: -1163px;  */
   margin-bottom: 348px;
 }
 
@@ -738,13 +738,38 @@ button .btn-primary{
 }
 @media (max-width: 563px)
 {
+  .titulo_principal{
+    margin-top: -465px;
+    font-family: 'Lilita One', cursive;
+    font-size: 2.7em;
+    /* margin-top: 25px; */
+    margin-bottom: 5px;
+    color: var(--theme-color);
+    text-shadow: 4px 2px 0px white;
+
+
+  }
   .titulo1,h1{
     font-size: 1.5em; /*Era 1.5em;*/
+    
   } 
   .titulo2 h2{
     font-size: 4em;
     text-shadow: 5px 0px 0px white;
-  } 
+  }
+  
+  .titulo_secundario{
+    font-family: 'Playball', cursive;
+    color: var(--theme-color);
+  }
+  .titulo_secundario h2{
+    text-shadow: 4px 2px 0px white;
+    font-size: 4em;
+
+  }
+  .cuenta{
+    margin-bottom: -800px;
+  }
 
 
   
@@ -780,7 +805,7 @@ button .btn-primary{
   flex-direction: column;
   margin-left: 13px;
   position: absolute;
-  bottom: -45%; 
+  /* bottom: -45%;  */
 }
 
 
@@ -856,9 +881,9 @@ button .btn-primary{
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh; 
   background-image: url("/img/painel-1x0-70-chuva-de-bencaos-cha-de-bebe.jpg");
-  background-position: center center;
+  background-position: bottom right;
   background-size:cover;
 }
 .cuenta{
@@ -866,12 +891,11 @@ button .btn-primary{
 
   margin-bottom: 10px;
 }
-.cuantofalta,h3{
+.cuantofalta,h3,h5{
   font-family: 'Playball', cursive;
   font-size: 2.5em;
   color: white;
-
-
+  text-shadow: 3px 2px 0px var(--theme-color);
 } 
 
 }
