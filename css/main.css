@@ -428,6 +428,7 @@ a {
 .boton{
   /* margin-top: 20px; */
   margin-top: -15px;
+  padding-bottom: 20px;
 }
 iframe{
   background-image: url(/img/map.png);
@@ -529,9 +530,9 @@ background-size: cover;
  
  }
 .dressCode h3{
-  font-family: 'Roboto', sans-serif;
+  font-family:fantasy;
   font-size: 2em;
-  color:#000000;
+  color:var(--theme-color);
   text-align: center;
   
 }
@@ -584,7 +585,7 @@ button .btn-primary{
 
   float:left;
   right:0;
-  top:45%;
+  top:10%;
   position:fixed;
   -webkit-transform-origin:0 0;
   -moz-transform-origin:0 0;
