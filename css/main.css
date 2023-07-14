@@ -780,6 +780,14 @@ button .btn-primary{
     margin-bottom: -800px;
   }
 
+  .inicio , .titulos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+    /* margin-top: -1163px;  */
+    margin-bottom: 348px; 
+  }
 
   
 /*agregado 29-06*/
