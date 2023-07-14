@@ -26,6 +26,7 @@
 }
 main{
   background-image: url("/img/1.jpg");
+  background-position: 89% 71%;
    background-color: #b7f0f8; 
 
   /* background-position: center; */
@@ -745,7 +746,7 @@ button .btn-primary{
     padding-bottom: 70px;
   }
 }
-@media (max-width: 563px)
+@media (max-width: 563px) /*para A21 s*/
 {
   .titulo_principal{
     margin-top: -465px;
