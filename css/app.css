@@ -272,7 +272,7 @@ p {
   /* padding: 2em; */
   box-sizing: border-box;
   position: relative;
-  top: 100%;
+  /* top: 100%; */
   transition:all .3s;
 }
 

@@ -25,7 +25,7 @@
 
 }
 main{
-  background-color: #b7f0f8;
+   background-color: #b7f0f8; 
 
   /* background-position: center; */
   /* background-size: cover; */
@@ -307,7 +307,8 @@ color:white;
 padding-top: 20px;
 font-family: satisfy;
 }
-.datoimport h3{
+.datoimport h5{
+  font-family: "Lilita One";
   color: #ff0080;
   font-size: 1.4em;
 }
@@ -391,7 +392,7 @@ a {
   flex-direction: column;
   margin-left: 13px;
   position: absolute;
-  bottom: 11%; 
+  /* bottom: 11%;  */
 }
 
 .solapa{
@@ -546,7 +547,14 @@ background-size: cover;
   flex-direction: column;
 
   /* margin-top: -1163px;  */
-  margin-bottom: 348px;
+  /* margin-bottom: 348px; */
+}
+.galeria{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 /* .recorrido{
@@ -875,15 +883,14 @@ button .btn-primary{
 .invitacion{
   background-image: url("/img/Fondo-lluvia-de-amor-576x1024.png");
 }
-
-.vacio{
+section, .vacio{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh; 
+  /* height: 100vh;  */
   background-image: url("/img/painel-1x0-70-chuva-de-bencaos-cha-de-bebe.jpg");
-  background-position: bottom right;
+  /* background-position: bottom right; */
   background-size:cover;
 }
 .cuenta{
@@ -897,5 +904,21 @@ button .btn-primary{
   color: white;
   /* text-shadow: 3px 2px 0px var(--theme-color); */
 } 
+.galeria{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+section .galeria {
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  
+  }
 
 }
